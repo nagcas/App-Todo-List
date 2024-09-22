@@ -1,70 +1,100 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 📝 Todo App
 
-## Available Scripts
+Una semplice applicazione Todo sviluppata con React per gestire le tue attività quotidiane.
 
-In the project directory, you can run:
+## 🚀 Demo
+[Link alla demo (se disponibile)](https://esempio-link-demo.com)
 
-### `npm start`
+## 📦 Installazione
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Segui questi passaggi per installare ed eseguire l'applicazione in locale:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Clona il repository**
 
-### `npm test`
+   ```bash
+   git clone https://github.com/tuo-username/todo-app.git
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **Accedi alla directory del progetto**
 
-### `npm run build`
+   ```bash
+   cd todo-app
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. **Installa le dipendenze**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   Utilizzando `npm`:
+   ```bash
+   npm install
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   Oppure, se preferisci `yarn`:
+   ```bash
+   yarn install
+   ```
 
-### `npm run eject`
+4. **Avvia l'applicazione**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   Con `npm`:
+   ```bash
+   npm start
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   Con `yarn`:
+   ```bash
+   yarn start
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   Ora l'app sarà disponibile su `http://localhost:3000`.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🛠️ Tecnologie utilizzate
 
-## Learn More
+- **React** - Libreria per la creazione di interfacce utente.
+- **CSS Vanilla** - Per lo styling dell'applicazione.
+- **UUID** - Per generare ID unici per ogni attività.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🔧 Funzionalità
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Aggiungi Todo**: Crea nuove attività da completare.
+- **Modifica Todo**: Modifica il titolo delle attività.
+- **Cancella Todo**: Elimina le attività completate o non più necessarie.
 
-### Code Splitting
+## 📸 Screenshot
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Screenshot dell'app](screenshot.png)
 
-### Analyzing the Bundle Size
+## 📚 Struttura del progetto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+src/
+│
+├── components/
+│   ├── Todo.js          # Componente Todo per visualizzare e modificare attività
+│   └── TodoApp.js       # Componente principale che gestisce la logica
+│
+├── styles/
+│   └── TodoApp.css      # Stile CSS per l'app
+│
+└── App.js               # Entry point dell'app
+```
 
-### Making a Progressive Web App
+## 📝 Utilizzo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. Avvia l'app con il comando `npm start` o `yarn start`.
+2. Utilizza il campo di input per aggiungere nuove attività.
+3. Modifica o elimina le attività cliccando sui pulsanti corrispondenti.
 
-### Advanced Configuration
+## 🤝 Contribuire
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+1. Fai un fork del progetto.
+2. Crea un nuovo branch (`git checkout -b feature/AmazingFeature`).
+3. Esegui il commit delle modifiche (`git commit -m 'Aggiungi una funzionalità'`).
+4. Fai push del branch (`git push origin feature/AmazingFeature`).
+5. Apri una Pull Request.
 
-### Deployment
+## 📄 Licenza
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Questo progetto è sotto licenza MIT - [vedi il file LICENSE](LICENSE) per maggiori dettagli.
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
