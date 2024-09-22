@@ -4,7 +4,7 @@
 Una semplice applicazione Todo sviluppata con React per gestire le tue attività quotidiane.
 
 ## 🚀 Demo
-[Link alla demo (se disponibile)](https://esempio-link-demo.com)
+[Link alla demo (se disponibile)]()
 
 ## 📦 Installazione
 
