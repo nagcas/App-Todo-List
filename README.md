@@ -2,6 +2,13 @@
 # 📝 Todo App
 
 Una semplice applicazione Todo sviluppata con React per gestire le tue attività quotidiane.
+<<<<<<< HEAD
+=======
+
+## 🚀 Demo
+[Link alla demo (se disponibile)]()
+
+>>>>>>> f7fcefad0318d7c21f07f6ea0d0727a745f996ba
 ## 📦 Installazione
 
 Segui questi passaggi per installare ed eseguire l'applicazione in locale:
